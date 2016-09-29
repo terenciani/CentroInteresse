@@ -75,12 +75,18 @@
 							</tbody>
 					</table>
 				</form>
+				
+				
+				
+				
 			</div>
+			
 		</section>
-
+		<a href="cadastrar-centro.html">Novo Centro de Interesse</a>
 
 		<!-- END: footer -->
 	</div>
+	
 	<script src="../js/jquery-1.12.3.min.js" type="text/java"></script>
 	<script src="../bootstrap-3.3.6/js/bootstrap.min.js"></script>
 

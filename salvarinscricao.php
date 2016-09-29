@@ -18,7 +18,7 @@
 	$opcao2 = $_POST['opcao2'];
 	
 	
-	include 'conexao.php';
+	include 'includes/conexao.php';
 	
 	
 	
@@ -34,7 +34,7 @@
 	$tipo1 = $itembancodados['tipo'];
 	
 	
-	$comandosql = "SELECT count(*) as total FROM tb_inscricao WHERE opcao_um=".$opcao1;
+	$comandosql = "SELECT count(*) as total FROM tb_inscricao WHERE centro_de_interesse_um=".$opcao1;
 	$resultado = mysql_query($comandosql);
 	$itembancodados = mysql_fetch_assoc($resultado);
 	$qtdeinscritosc1 = $itembancodados['total'];
@@ -57,7 +57,7 @@
 	$qtdevagas2 = $itembancodados['quantidade_vagas'];
 	$tipo2 = $itembancodados['tipo'];
 	
-	$comandosql = "SELECT count(*) as total FROM tb_inscricao WHERE opcao_dois=".$opcao2;
+	$comandosql = "SELECT count(*) as total FROM tb_inscricao WHERE centro_de_interesse_dois=".$opcao2;
 	$resultado = mysql_query($comandosql);
 	
 
@@ -84,7 +84,7 @@
 	}
 	
 
-	$comandosql = "SELECT count(*) as total FROM tb_inscricao WHERE codigo_aluno=".$codigo;
+	$comandosql = "SELECT count(*) as total FROM tb_inscricao WHERE matricula=".$codigo;
 	$resultado = mysql_query($comandosql);
 	$itembancodados = mysql_fetch_assoc($resultado);
 	$qtdecodigodoaluno = $itembancodados['total'];

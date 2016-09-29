@@ -90,7 +90,7 @@
 					ID="centrodeinsteresse-dois" name="opcao2">
 					<OPTION VALUE="0">Insira...</option>
 					<?php
-					$query = "SELECT * FROM tb_centro_interesse WHERE horario_inicio='12:30:00'";
+					$query = "SELECT * FROM tb_centro_interesse WHERE horario_inicio='14:10:00'";
 					$result = mysql_query ( $query );
 					while ( $resultado = mysql_fetch_row ( $result ) ) {
 						echo "<OPTION VALUE='" . $resultado [0] . "'>" . $resultado [1] . "</option>";
