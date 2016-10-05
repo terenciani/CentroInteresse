@@ -1,25 +1,5 @@
-#container-um{
-	background-image: url(../imagens/fundo.jpg);
-	width: 80%;
-	height: 95%;
-	margin: 0px auto 0px auto;
-	border-color: white;
-	border-style: solid;
-	border-width: 1px;
-	font-family: "Glyphicons Halflings";
-}
-#container-dois{
-	background-image:  url(../imagens/fundo.jpg);
-	width: 95%;
-	height: 15%;
-	margin: 0px auto 0px auto;
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
-	font-family: "Bradley Hand ITC";
-}
 #container-tres{
-	background-color: white;
+	background-color: black;
 	width: 100%;
 	height: 100%;
 	margin: 0px auto 0px auto;
@@ -40,50 +20,80 @@
 	font-family: "Glyphicons Halflings";
 	text-align: center;
 }
-body {
-	background-color: black;
-	font-family: "Glyphicons Halflings";
-}
-
-h1 {
-	color: black;
-	font-family: "Bradley Hand ITC";
-	font-size: 40px;
-	text-align: center;
-}
 input::-webkit-input-placeholder{
-	color: black;
+	color: white;
 	font-family: "Glyphicons Halflings";
 	font-size: 13px;
 }
-h2 {
-	font-family: "Glyphicons Halflings";
-	font-size: 15px;
-	text-align: center;
-}
-
 input#txt_nome{
-	width: 100%;
+	width: 92%;
 	font-size: 15px;
 	font-family: "Glyphicons Halflings";
 }
 input#txt_codigo{
-	width: 100%;
+	width: 92%;
 	font-size: 15px;
 	font-family: "Glyphicons Halflings";
 }
-input#txt_email{
-	width: 100%;
+input#txt_turma{
+	width: 92%;
 	font-size: 15px;
 	font-family: "Glyphicons Halflings";
 }
 select#centrodeinsteresse-um{
-	width: 100%;
+	width: 92%;
 	font-size: 15px;
 	font-family: "Glyphicons Halflings";
 }
 select#centrodeinsteresse-dois{
-	width: 100%;
+	width: 92%;
 	font-size: 15px;
 	font-family: "Glyphicons Halflings";
 }
+#container{
+	background-color:#d3f8f3;
+	width: 80%;
+	height: 100%;
+	margin: 0px auto 0px auto;
+
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+#nome {
+	border-width: 0px;
+	width: 92%;
+}
+#codigodoAluno {
+	border-width: 0px;
+	width: 27%;
+}
+#e-mail {
+	border-width: 0px;
+	width: 70%;
+}
+body {
+	background-color:#d3f8f3;
+}
+h1 {
+	color: black;
+	font-family: "arial";
+	font-size: 30px;
+	text-align: center;
+}
+input:-webkit-input-placeholder{
+	color: black;
+	font-family: "arial";
+	font-size: 30x;
+	
+	}
+h2 {
+	color: black;
+	font-family: "arial";
+	font-size: 14px;
+}
+.centralizada{
+	text-align: center;
+}
+
+
