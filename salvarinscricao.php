@@ -1,13 +1,15 @@
 ﻿<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link href="bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet">
-		<script src="bootstrap-3.3.6/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
-	<body>
-		<div id="container-tres" class="thumbnail">
-			<div id="container-quatro" class="thumbnail">
+<head>
+<meta charset="utf-8"></meta>
+<script type="text/javascript" src="../js/jquery-1.12.3.min.js"></script>
+<link href="../bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<link href="css/estilo.css" rel="stylesheet" />
+<title>salvar inscrição</title>
+</head>
+<body>
+	<div id="container" class="container">
+		<header class="jumbotron teste">
 <?php
 	$podeinserir=true;
 	
@@ -113,8 +115,7 @@
 	}
 	mysql_close();
 ?>
-			</div>
-			</div>
-		</div>
-	</body>
+		</header>
+	</div>
+<body>
 </html>

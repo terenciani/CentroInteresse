@@ -34,7 +34,7 @@
 					echo $error;
 				} else {
 					echo "<h1> Inscrição realizada 	<br /> com sucesso</h1>";
-					echo "<a href='cadatrar-centro.html'> Clique aqui para cadastrar um novo centro </a>";
+					echo "<a href='http://localhost/CentroInteresse/admin/cadastrar-centro.html'> Clique aqui para cadastrar um novo centro </a>";
 				}
 				/* Encerra a conexao */
 				mysql_close ();

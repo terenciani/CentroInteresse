@@ -2,10 +2,10 @@
 <html lang="pt-br">
 
 <head>
-<link href="../css/estilo2.css" rel="stylesheet">
+
 <link href="../bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 <script src="../bootstrap-3.3.6/js/bootstrap.min.js"></script>
-
+<link href="../css/estilo.css" rel="stylesheet">
 <title>..:: lista do CI ::..</title>
 
 </head>

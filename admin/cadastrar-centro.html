@@ -1,63 +1,75 @@
 <html>
 <head>
 <meta charset="utf-8"></meta>
-<link href="../css/estilo.css" rel="stylesheet" />
 <script type="text/javascript" src="../js/jquery-1.12.3.min.js"></script>
 <link href="../bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 <script src="../bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<link href="../css/style.css" rel="stylesheet" />
 <title>Inserir Centro</title>
 </head>
-<body>
+<body class="corpo">
 	<div id="container" class="container">
-		<header class="jumbotron centralizado">
+		<header class="centralizado">
 			<h1>Inserir Centro</h1>
 		</header>
 		<form method="post" action="salvar-centro.php">
 			<div class="form-group">
-				<label for="nome">Nome</label> <input type="text"
-					class="form-control" id="nome" name="camponome" required />
+				<label class="glyphicon glyphicon-user font-negrito" for="nome"> NOME:</label> <input type="text" class="form-control" id="nome" name="camponome" required />
 			</div>
+			
+			
 
 			<div class="form-group">
-				<label for="descricao">Descrição:</label>
-				<textarea class="form-control" rows="5" id="descricao"
-					name="campodescricao" required></textarea>
+				<label class="glyphicon glyphicon-edit font-negrito" for="descricao"> DESCRIÇÃO:</label>
+				<textarea class="form-control" rows="3" id="descricao" name="campodescricao" required></textarea>
 			</div>
+			
 
 			<div class="row">
 				<div class="col-md-6">
-					<label for="orientador">Orientador:</label> <input type="text"
+					<label class="glyphicon glyphicon-pencil font-negrito" for="orientador"> ORIENTADOR:</label> <input type="text"
 						class="form-control" id="orientador" name="campoorientador"
 						required />
 				</div>
 				<div class="col-md-6">
-					<label for="campoqtdvagas">Quantidade De Vagas:</label> <input
+					<label class="glyphicon glyphicon-th-list font-negrito" for="campoqtdvagas"> QUANTIDADE DE VAGAS:</label> <input
 						type="number" class="form-control" id="campoqtdvagas"
 						name="campoqtdvagas" required />
 				</div>
 			</div>
-			<br />
+			
+			<br>
+			
+			
 			<div class="row">
 				<div class="col-md-4">
-					<label for="horario-inicio">Horário De Inicio</label> <input
+					<label class="glyphicon glyphicon-time font-negrito" for="horario-inicio"> HORÁRIO DE INÍCIO</label> <input
 						type="time" class="form-control" id="horario-inicio"
 						name="campoinicio" required />
 				</div>
 				<div class="col-md-4">
-					<label for="horario-termino">Horário De Término</label> <input
+					<label class="glyphicon glyphicon-time font-negrito" for="horario-termino"> HORÁRIO DE TÉRMINO</label> <input
 						type="time" class="form-control" id="horario-termino"
 						name="campotermino" required />
 				</div>
 				<div class="col-md-4">
-					<label for="tipo">Tipo</label> <input type="number"
+					<label class="glyphicon glyphicon-tags font-negrito" for="tipo"> TIPO</label> <input type="number"
 						class="form-control" id="tipo" name="campotipo" required />
 				</div>
 			</div>
+			
+			
 			<div class="form-group centralizado">
-				<input type="reset" value="Cancelar" class="btn btn-danger btn-lg" />
-				<input type="submit" value="Salvar" class="btn btn-success btn-lg" />
-
-			</div>
+			
+			
+				<h2>
+					<button type="reset" class="btn btn-danger">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> CANCELAR
+					</button>
+					<button type="submit" class="btn btn-success">
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> CONFIRMAR
+					</button>
+				</h2>
 		</form>
 
 

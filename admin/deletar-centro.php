@@ -1,20 +1,17 @@
-<! DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-<link href="estilo.css" rel="stylesheet">
-<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
-<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-
-<title>..:: Deletar o CI ::..</title>
-
-
-<!--  Nucleo do jquery -->
-<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+<meta charset="utf-8"></meta>
+<script type="text/javascript" src="../js/jquery-1.12.3.min.js"></script>
+<link href="../bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<link href="../css/estilo.css" rel="stylesheet" />
+<title>salvar inscrição</title>
 </head>
-<h1 id="admin">
-
+<body>
+	<div id="container" class="container">
+		<header class="jumbotron teste">
 <?php
-	include 'includes/conexao.php';
+	include '../includes/conexao.php';
 	
 	
 	
@@ -31,12 +28,14 @@
 	
 	
 	if ($sql) {
-		echo "Registro excluido com sucesso";
-		echo "<a href='listar_centro.php'> Clique aqui para voltar</a>";
+		echo "<h1>Registro excluido com sucesso<h1>";
+		echo "<a href='listar-centro.php'> Clique aqui para voltar</a>";
 	}
 	
 	mysql_close($conexao); 
 	
 ?>
-</h1>
+		</header>
+	</div>
+<body>
 </html>

@@ -1,37 +1,58 @@
- .centralizado{
+#container{
+	background-color:#d3f8f3;
+	margin: 0px auto 0px auto;
+	border-color: #191970 ;
+	border-style:double ;
+	border-width: 10px;
+}
+#admin{
 	text-align: center;
 }
-
-.centralizado input{
-	margin: 20px;
-    border-width:3px;
-    border-style:solid;
-    border-color:black;
-
+#txt_name{
+	border-width: 1px;
+	border-color: black;
+	width: 90%; /*largura*/
+	
+}
+#txt_codigo{
+	border-width: 1px;
+	border-color: black;
+	width: 20%; /*largura*/
+}
+#txt_email{
+	border-width: 1px;
+	border-color: black;
+	width: 70%; /*largura*/
+	
 }
 
+#txt_motivo{
+width: 70%; /*largura*/
+	height: 15%; /*altura*/
+	border-color: black;
+	border-width: 1px;
+	text-align: left;
 
-.teste{
+}
+#txt_nomedoci{
+	border-width: 1px;
+	border-color: black;
+	width: 70%; /*largura*/
+}
+#txt_datahorario{
+	width: 25%; /*largura*/
+	border-color: black;
+	border-width: 1px;
 	text-align: center;
-	margin: 20px;
-    border-width:3px;
-    border-style:solid;
-    border-color:black;
+	}
+#txt_Qvagas{
+	border-width: 1px;
+	border-color: black;
+	text-align: center ;
+	width: 25%; /*largura*/
 
 }
 
-.container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 66px;
-}
-.container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 66px;
-	border-style:solid;
-    border-color:black;
-}
-.form-control{
-    border: 3px solid black !important;
+.centralizada{
+	text-align: center;
 }
